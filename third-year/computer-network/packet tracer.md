@@ -60,3 +60,18 @@ banner motd $message here$
 ```
 copy running-config startup-config
 ```
+
+## Steps to configure Switch with an IP address.
+
+### Enter globle configration mode.
+
+
+```
+interface vlan 1
+```
+```
+ip address $ip-address $subnet-musk
+```
+```
+no shutdown
+```
